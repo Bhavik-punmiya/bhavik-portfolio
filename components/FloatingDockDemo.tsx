@@ -12,6 +12,7 @@ import {
   IconBrandLeetcode,
   IconCode,
 } from "@tabler/icons-react";
+import Image from "next/image";
 
 export function FloatingDockDemo() {
   const links = [
@@ -23,11 +24,11 @@ export function FloatingDockDemo() {
     {
       title: "Resume",
       icon: (
-        <img
+        <Image
           src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png"
+          alt="Resume Icon"
           width={20}
           height={20}
-          alt="Resume Icon"
         />
       ),
       href: "https://drive.google.com/drive/u/0/folders/1Cx1GcFEFTorpoyesSoMewOGG0RUPFU45",
@@ -35,11 +36,11 @@ export function FloatingDockDemo() {
     {
       title: "LeetCode",
       icon: (
-        <img
+        <Image
           src="https://leetcode.com/static/images/LeetCode_logo_rvs.png"
+          alt="LeetCode Icon"
           width={20}
           height={20}
-          alt="LeetCode Icon"
         />
       ),
       href: "https://leetcode.com/u/Bhavik_/",
@@ -85,8 +86,7 @@ export function FloatingDockDemo() {
     <div className="w-full flex justify-center fixed top-0 left-0 z-40">
       <FloatingDock
         items={links}
-        desktopClassName="mt-4"
-        mobileClassName="mt-4"
+        className="mt-4" // Add responsive classes here if needed
       />
     </div>
   );
