@@ -17,12 +17,14 @@ export const BackgroundLines = ({
   return (
     <div
       className={cn(
-        "h-[20rem] md:h-screen w-full bg-white dark:bg-black",
+        "min-h-[40rem] md:h-screen w-full bg-white dark:bg-black relative overflow-hidden",
         className
       )}
     >
       <SVG svgOptions={svgOptions} />
-      {children}
+      <div className="relative z-10 flex items-center justify-center w-full flex-col px-4 py-8 md:py-0">
+        {children}
+      </div>
     </div>
   );
 };
