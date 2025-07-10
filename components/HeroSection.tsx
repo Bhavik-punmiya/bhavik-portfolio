@@ -99,7 +99,7 @@ export function BackgroundLinesDemo() {
         <div className="w-full flex justify-center fixed top-0 left-0 z-50 mt-6 px-4">
           <FloatingDock
             items={links}
-            className="bg-white/80 dark:bg-black/80 backdrop-blur-md border border-neutral-200 dark:border-neutral-700 shadow-lg rounded-full px-4 py-2"
+            className="bg-white/80 dark:bg-black/80 backdrop-blur-md !sm:border !sm:border-neutral-200 dark:border-neutral-700 shadow-lg rounded-full px-4 py-2"
           />
         </div>
       )}

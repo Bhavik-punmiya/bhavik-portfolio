@@ -42,7 +42,7 @@ const SkeletonTwo = () => {
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
       Built a Cargo Stowage Management System to help astronauts organize, locate, and access critical tools in space missions. 🛰️🧑‍🚀
     </p>
-    <a href="https://www.youtube.com/watch?v=-67WDPuTdCs" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.youtube.com/watch?v=zxOjm3Bwxu8" target="_blank" rel="noopener noreferrer">
       <button className="px-4 py-2 rounded-xl border border-neutral-600 text-black bg-white hover:bg-gray-100 transition duration-200">
         Watch a demo on YouTube
       </button>
@@ -57,7 +57,7 @@ const SkeletonThree = () => {
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
       A first-of-its-kind system using computer vision to detect posture, dosage, and technique during asthma inhaler use.
     </p>
-    <a href="https://www.youtube.com/watch?v=6TDvoS9Y4Os" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.youtube.com/watch?v=-67WDPuTdCs" target="_blank" rel="noopener noreferrer">
       <button className="px-4 py-2 rounded-xl border border-neutral-600 text-black bg-white hover:bg-gray-100 transition duration-200">
         Watch a demo on YouTube
       </button>
@@ -72,7 +72,7 @@ const SkeletonFour = () => {
     <p className="font-normal text-base my-4 max-w-lg text-neutral-200">
       DecentrixAI is your all-in-one Web3 powerhouse — combining AI-driven smart contract generation, multi-chain deployment, and seamless on-chain interaction into one intuitive platform. 🚀🤖
     </p>
-    <a href="https://www.youtube.com/watch?v=s6ixOqQnutM" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.youtube.com/watch?v=6TDvoS9Y4Os" target="_blank" rel="noopener noreferrer">
       <button className="px-4 py-2 rounded-xl border border-neutral-600 text-black bg-white hover:bg-gray-100 transition duration-200">
         Watch a demo on YouTube
       </button>
