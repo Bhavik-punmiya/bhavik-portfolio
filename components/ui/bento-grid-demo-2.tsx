@@ -19,7 +19,7 @@ export default function BentoGridSecondDemo() {
         </p>
       </div>
 
-      <BentoGrid className="max-w-6xl mx-auto md:auto-rows-[20rem] gap-4">
+      <BentoGrid className="max-w-6xl mx-auto auto-rows-[12rem] md:auto-rows-[20rem] gap-4 px-4 md:px-0">
         {items.map((item, i) => (
           <a
             key={i}

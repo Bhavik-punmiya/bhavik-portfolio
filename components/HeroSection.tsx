@@ -30,8 +30,8 @@ export function BackgroundLinesDemo() {
 
   const ResumeIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
-         strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-         className="tabler-icon tabler-icon-file-text h-full w-full text-neutral-500 dark:text-neutral-300">
+      strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+      className="tabler-icon tabler-icon-file-text h-full w-full text-neutral-500 dark:text-neutral-300">
       <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
       <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
       <path d="M9 9l1 0"></path>
@@ -42,8 +42,8 @@ export function BackgroundLinesDemo() {
 
   const LeetCodeIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
-         strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-         className="tabler-icon tabler-icon-brand-leetcode h-full w-full text-neutral-500 dark:text-neutral-300">
+      strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
+      className="tabler-icon tabler-icon-brand-leetcode h-full w-full text-neutral-500 dark:text-neutral-300">
       <path d="M12 13h7.5"></path>
       <path d="M9.424 7.268l4.999 -4.999"></path>
       <path d="M16.633 16.644l-2.402 2.415a3.189 3.189 0 0 1 -4.524 0l-3.77 -3.787a3.223 3.223 0 0 1 0 -4.544l3.77 -3.787a3.189 3.189 0 0 1 4.524 0l2.302 2.313"></path>
@@ -59,7 +59,7 @@ export function BackgroundLinesDemo() {
     {
       title: "Resume",
       icon: <ResumeIcon />,
-      href: "https://drive.google.com/file/d/1OI7cfbf8BHGjsFCR-YGWP1j6aI1BgG8a/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1WCq_kxx69rpDUWJylcwj_0XlETEdLNzt/view?usp=sharing",
     },
     {
       title: "LeetCode",
@@ -109,7 +109,7 @@ export function BackgroundLinesDemo() {
           Bhavik Punmiya, <br /> Software Developer
         </h2>
         <p className="max-w-xl mx-auto text-base sm:text-lg md:text-xl text-neutral-700 dark:text-neutral-400 text-center mt-4 px-4 relative z-20">
-          Just a guy who loves to code and ship — 9× Hackathon Winner.
+          Just a guy who loves to code and ship — 9× Hackathon Winner. Ex RamAIn YC-W26, Ex ISRO
         </p>
       </div>
     </BackgroundLines>
